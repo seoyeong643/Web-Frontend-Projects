@@ -6,6 +6,7 @@ body {
   background-position: center;
   width: 100vw;
   height: 100vh;
+  padding: 20%;
   color: white;
   text-align: center;
   text-shadow: 2px 2px 5px rgb(80, 0, 0);
