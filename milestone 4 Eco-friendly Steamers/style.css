@@ -1,0 +1,120 @@
+body {
+  /* background-color: yellow; */
+  margin: 0;
+  background-image: url("https://skipper.org/cdn/shop/articles/eco_friendly_120cd6de-0473-47d2-bbf4-45f526c82391.png?v=1659684410&width=1920");
+  /* background-color: white; */
+}
+
+header {
+  background-color: green;
+  height: 100px;
+}
+
+img {
+  /* background-color: pink; */
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.nav ul {
+  background-color: green;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: right;
+}
+
+.nav li {
+  /* background-color: blue; */
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+}
+
+.nav a {
+  /* background-color: orange; */
+  color: white;
+}
+
+section {
+  /* background-color: chocolate; */
+  width: 850px;
+  margin: 50px auto 0 auto;
+}
+
+.section-box {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+#quote-offer-container {
+  background-color: lightgoldenrodyellow;
+  margin-right: 40px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#quote-form-container {
+  background-color: white;
+  padding: 20px;
+  margin-top: 30px;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px solid green;
+}
+
+#quote-form {
+  /* background-color: salmon; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-field {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.form-field label {
+  display: inline-block;
+  width: 60px;
+  color: #2e572e;
+  font-size: 16px;
+}
+
+.form-field input {
+  width: 250px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  /* margin-left: 240px; */
+}
+
+h2,
+p {
+  color: #2e572e;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+p {
+  font-size: larger;
+}
