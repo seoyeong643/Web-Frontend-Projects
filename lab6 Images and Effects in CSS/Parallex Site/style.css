@@ -43,7 +43,11 @@ body {
   min-height: 50vh;
   /* Add code here! */
   /* Ensure good background image formating */
-  /* Begin Parallax effect! */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Begin the Parallax effect! */
+  background-attachment: fixed;
 }
 .parallax2 {
   text-align: center;
@@ -51,6 +55,10 @@ body {
   min-height: 50vh;
   position: relative;
   /* Copy background properties from parallax1 */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .overlay {
@@ -75,6 +83,10 @@ body {
   background-image: url("assets/image3.jpg");
   min-height: 50vh;
   /* Add the same parallax properties from the first two examples */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Paragraph */
