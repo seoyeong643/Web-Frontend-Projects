@@ -1,0 +1,82 @@
+body {
+  background-color: #ffec65;
+  overflow-x: hidden;
+}
+
+navbar { 
+  background-color: ;#EEECE6
+}
+
+.navbar-toggler {
+border: transparent;
+}
+
+.offcanvas-header, .offcanvas-body{
+  background-color: #ffec65;
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+}
+
+.hero-image {
+  height: 90vh;
+}
+
+#main{
+  background-color: #EEECE6;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+h1 {
+  font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 100px;
+}
+
+.tag{
+  width: 500px;
+  height: 400px;
+}
+
+#Why-Smalls, #How_it_works, #say_hello {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.col {
+  display: inline-block;
+  height: auto;
+  width: 30%;
+  margin: 1%;
+}
+
+figure {
+  margin: 0;
+  overflow: hidden;
+}
+
+.col figure img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  padding: 5rem;
+}
+
+.benefits {
+  background-color: #EEECE6;
+  padding: 3px;
+}
+
+p {
+  font-size: 16px;
+}
+
+
+
+/* ******* BEGIN YOUR CSS BELOW ******** */
