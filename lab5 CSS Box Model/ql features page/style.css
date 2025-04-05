@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: url(/memphis-mini-dark.webp);
+}
+
+h1,
+h4,
+h5,
+.navbar-brand {
+  font-family: "Afacad", sans-serif;
+}
+
+.navbar-brand {
+  font-weight: 500;
+}
