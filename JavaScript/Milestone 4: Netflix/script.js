@@ -26,8 +26,31 @@ let comedyShows = [
 
 function chooseRandomGenre() {
   // Deliverable 1: Your code here 👇
+  const genres = ["drama", "fantasy", "comedy"];
+  const randomIndex = getRandomNumber(0, genres.length - 1);
+  return genres[randomIndex];
 }
 
 function displayRandomShow(genre) {
   // Deliverable 2: Your code here 👇
+  if (genre === "random") {
+    genre = chooseRandomGenre();
+  }
+
+  let selectedShows;
+  switch (genre) {
+    case "drama":
+      selectedShows = dramaShows;
+      break;
+    case "fantasy":
+      selectedShows = fantasyShows;
+      break;
+    case "comedy":
+      selectedShows = comedyShows;
+      break;
+    default:
+      return;
+  }
+  const randomIndex = getRandomNumber(0, selectedShows.length - 1);
+  displayShow(selectedShows[randomIndex]);
 }
