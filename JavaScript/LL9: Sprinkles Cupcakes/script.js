@@ -56,3 +56,12 @@ function findFlavorObject() {
 }
 
 // Dev Shop code
+
+// find correct flavor, select DOM element, change img src
+function revealFlavor() {
+  let flavorObject = findFlavorObject();
+  let flavorImage = document.querySelector("#featured-cupcake-img");
+  flavorImage.src = flavorObject.img;
+  let flavorName = document.querySelector("#featured-cupcake-name");
+  flavorName.innerText = flavorObject.name;
+}
