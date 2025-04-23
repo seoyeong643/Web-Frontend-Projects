@@ -1,18 +1,22 @@
 // #1. capslock() - takes in one string and returns the same string with all capital letters
 function capslock(str) {
   // 👇 Your code here 👇
+  return str.toUpperCase();
 }
 // UNCOMMENT TO TEST:
-// console.log(capslock("javascript is bae"))
+console.log(capslock("javascript is bae"));
 
 console.log("--------------------------------------");
 
 // #2. dogYears() - takes in a number and returns that number multiplied by 7
 
 // 👇 Define the function here! 👇
+function dogYears(num) {
+  return num * 7;
+}
 
 // UNCOMMENT TO TEST:
-// console.log(`You are ${dogYears(30)} in dog years!`)
+console.log(`You are ${dogYears(30)} in dog years!`);
 
 console.log("--------------------------------------");
 
@@ -25,11 +29,14 @@ console.log("--------------------------------------");
 // LEVEL-UP: use Math.floor or Math.ceil to round the result to a whole number
 
 // 👇 Define the function here! 👇
+function randomNum() {
+  return Math.random() * 10;
+}
 
 // UNCOMMENT TO TEST:
-// console.log(randomNum())
-// console.log(randomNum())
-// console.log(randomNum())
+console.log(randomNum());
+console.log(randomNum());
+console.log(randomNum());
 
 console.log("--------------------------------------");
 
@@ -41,9 +48,18 @@ console.log("--------------------------------------");
 // HINT #2: notice the instructions say to *print* the result (as opposed to return)
 
 // 👇 Define the function here! 👇
+function asciiArt() {
+  console.log(`
+        _    ____   ____ ___ ___      _         _        _             _     _
+      / \\  / ___| / ___|_ _|_ _|    / \\   _ __| |_     / \\   _ __ ___| |__ (_)_   _____
+    / _ \\ \\___ \\| |    | | | |    / _ \\ | '__| __|   / _ \\ | '__/ __| '_ \\| \\ \\ / / _ \\
+    / ___ \\ ___) | |___ | | | |   / ___ \\| |  | |_   / ___ \\| | | (__| | | | |\\ V /  __/
+  /_/   \\_\\____/ \\____|___|___| /_/   \\_\\_|   \\__| /_/   \\_\\_|  \\___|_| |_|_| \\_/ \\___|
+  `);
+}
 
 // UNCOMMENT TO TEST:
-// asciiArt()
+asciiArt()
 
 console.log("--------------------------------------");
 
@@ -59,6 +75,10 @@ console.log("--------------------------------------");
 // HINT3: If you find the numbers are off by one, make sure to adjust accordingly!
 
 // 👇 Define the function here! 👇
-
+function whatMonthIsIt() {
+  let now = new Date();
+  return now.getMonth() + 1;
+}
 // UNCOMMENT TO TEST:
-// console.log(whatMonthIsIt())
+console.log(whatMonthIsIt());
+console.log("--------------------------------------");
