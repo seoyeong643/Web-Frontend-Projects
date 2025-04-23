@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+  font-size: 3em;
+}
+#switch::after,
+#it::after {
+  content: "\a";
+  white-space: pre;
+}
