@@ -20,6 +20,13 @@ let spottedOwl = "wise";
 
 function checkIfPoisonous(animal) {
   // Your code here 👇
+  if (animal === "adorable") {
+    console.log("Pet that one immediately!");
+  } else if (animal === "poisonous" || animal === "vicious") {
+    console.log("You probably shouldn't pet that one...");
+  } else {
+    console.log("Give them a pet!");
+  }
 }
 
-// checkIfPoisonous()
+checkIfPoisonous(spottedOwl);
