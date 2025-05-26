@@ -11,6 +11,7 @@ Folders
 | Portfolio Website              | A personal portfolio showcasing work                 | HTML, CSS, Bootstrap  | HTML/CSS   |
 | Cowboy Rob's Carpet Calculator | A simple calculator with JS logic                    | HTML, CSS, JavaScript | JavaScript |
 | Netflix                        | Genre-based random show suggestion prototype project | HTML, CSS, JavaScript | JavaScript |
+| Portfolio: Match Game                        | Interactive memory card game built with DOM manipulation, logic handling, and custom event listeners. | HTML, CSS, JavaScript | JavaScript |
 ...
 
 ## 🎯 Experience
